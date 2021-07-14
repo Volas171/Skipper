@@ -52,7 +52,7 @@ public class OhNo extends Plugin {
                     mapvotes.add(player.uuid());
                     int mapcur = this.mapvotes.size();
                     int mapreq = (int) Math.ceil(mapratio * Groups.player.size());
-                    Call.sendMessage("[cyan]MAP SKIPPER[]: [accent]" + player.name + "[accent] wants to skip the map, [green]" + cur + "[] votes, [green]" + req + "[] required.");
+                    Call.sendMessage("[cyan]MAP SKIPPER[]: [accent]" + player.name + "[accent] wants to skip the map, [green]" + mapcur + "[] votes, [green]" + mapreq + "[] required.");
                     if (mapcur < mapreq) {
                         return;
                     }
@@ -65,7 +65,7 @@ public class OhNo extends Plugin {
                     wavevotes.add(player.uuid());
                     int wavecur = this.wavevotes.size();
                     int wavereq = (int) Math.ceil(waveratio * Groups.player.size());
-                    Call.sendMessage("[sky]WAVE SKIPPER[]: [accent]" + player.name + "[accent] wants to skip the wave, [green]" + cur + "[] votes, [green]" + req + "[] required.");
+                    Call.sendMessage("[sky]WAVE SKIPPER[]: [accent]" + player.name + "[accent] wants to skip the wave, [green]" + wavecur + "[] votes, [green]" + wavereq + "[] required.");
                     if (wavecur < wavereq) {
                         return;
                     }
