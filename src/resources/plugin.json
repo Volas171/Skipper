@@ -1,11 +1,11 @@
 {
-  "name": "OHNO",
-  "displayName": "OhnoPlugin",
-  "description": "-_-",
-  "author": "MinDurka",
+  "name": "SkipperPlugin",
+  "displayName": "WaveMapSkipper",
+  "description": "Skips.",
+  "author": "Darkness6030",
   "main": "mindurka.OhNo",
   "hidden": false,
   "java": true,
-  "version": "2.1",
-  "minGameVersion": 126.2
+  "version": "1.1",
+  "minGameVersion": 128
 }
