@@ -76,6 +76,7 @@ public class OhNo extends Plugin {
                     break;
                 default:
                     player.sendMessage("[scarlet]ERROR: invalid argument. [accent]Usage: [lightgray]/skip map/wave");
+            }
         });
     }
 }
