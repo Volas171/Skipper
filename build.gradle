@@ -10,7 +10,7 @@ compileTestJava.options.encoding = "UTF-8"
 
 sourceSets.main {
     java.srcDirs = ['src']
-    resources.srcDirs = ['assets']
+    resources.srcDirs = ['src/resources']
 }
 
 repositories {
