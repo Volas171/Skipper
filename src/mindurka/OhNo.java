@@ -46,7 +46,7 @@ public class OhNo extends Plugin {
     public void registerClientCommands(CommandHandler handler){
 
         //register a simple reply command
-        handler.<Player>register("skip", "<map/wave>", "Голосование за скип волны", (args, player) -> {
+        handler.<Player>register("skip", "<map/wave>", "Vote For Skipping map/waves | Голосование за скип волны", (args, player) -> {
             switch (args[0]) {
                 case "map":
                     mapvotes.add(player.uuid());
